@@ -56,8 +56,8 @@ Although it was published in 2008 and many humanitarian organizations and countr
 
 ## Reference Documents and Reading 
 
-+ [\textcolor{blue}{the Indicators for assessing infant and young child feeding practices: definitions and measurement methods}](https://www.who.int/publications/i/item/9789240018389) 
-+ [\textcolor{blue}{R Packages: Organize, Test, Document and Share your Code}](https://r-pkgs.org/index.html) 
++ [the Indicators for assessing infant and young child feeding practices: definitions and measurement methods](https://www.who.int/publications/i/item/9789240018389) 
++ [R Packages: Organize, Test, Document and Share your Code](https://r-pkgs.org/index.html) 
 
 
 
