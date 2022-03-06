@@ -1,0 +1,69 @@
+---
+title: '`riycf` Package'
+subtitle: "Independent Study Planning"
+author: Nicholus Tint Zaw
+fontsize: 12pt
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
+header-includes: \usepackage{pdfpages}
+geometry: margin=0.5in
+fig_crop: no
+---
+
+
+## Background Information 
+
+The first 1,000 days of life (from pregnancy to a child's 2nd birthday) are critical for addressing childhood malnutrition, especially stunting. Infant and young child feeding practices (IYCF) largely overlap with this period as they cover breastfeeding and complementary feeding practices for the first two years of a child's life. They also have a significant impact on childhood health, nutrition outcomes, and child survival. It is, therefore, critical for countries to measure IYCF practices as part of their efforts to monitor their progress toward Sustainable Development Goal 2. It is also important for development agencies to be able to monitor and evaluate their programs aimed at improving infant and young child feeding practices towards improved overall childhood nutrition. 
+
+WHO and UNICEF released the first IYCF indicators definition and measurement guidelines in 2008. In 2021, these guidelines were updated along with a revised standard questionnaire to capture the information required to calculate the updated IYCF indicators since the first initial publication. 
+
+Although published in 2008 with many humanitarian organizations and country health ministries implementing these indicators, no comprehensive statistical programming package to calculate these indicators is yet available. This project aims to address this technical gap by providing an easy-to-use package for the [R language for statistical computing](https://www.r-project.org) to calculate these IYCF indicators. This project also aims to develop an IYCF questionnaire based on the recommendations of the current guidelines built using [XLSForm standard](https://xlsform.org) that can be deployed using any [Open Data Kit](https://getodk.org) platform for computer-assisted personal interviews (CAPI). 
+
+
+## Objectives 
+
++ To develop an R package to generate IYCF indicators according to the indicators' definition provided by the WHO/UNICEF 2021 guideline.
++ To develop a questionnaire using the XLSForm standard based on WHO/UNICEF IYCF indicators standard questionnaire. 
++ To publish the `riycf` package at The Comprehensive R Archive Network 
++ To deploy a  package website that explains the IYCF indicators and demonstrates the application of the functions available in the package.
++ To draft a concept note and flowchart for the development of a Shiny app that uses the `riycf` package and aims to provide a dashboard for reporting indicator results. 
+
+
+## Project Organization 
+
++ [Professor Rebecca Wolfe](https://harris.uchicago.edu/directory/rebecca-wolfe): Academic Supervisor 
++ [Ernest Guevarra](https://ernest.guevarra.io/): Technical Resource Person 
++ Nicholus Tint Zaw: Student and Lead author of the package 
+
+
+## Workflow Management 
+
++ A weekly update to share with the academic supervisor and technical resource person 
++ Hold regular bi-weekly meetings with the academic supervisor to update the project progress and other project-related issues 
++ Hold regular weekly meetings with technical resource person to review the codes 
++ Use GitHub platform for version control, coding task management, and publication 
+
+
+## Timeline and Project Milestones 
+
+**Duration**: Spring Quarter (28th March 2022 - 4th June 2022)  
+
+
+**Milestones** 
+
++ Step 1: XLXForm development 
++ Step 2: Completion of breastfeeding-related indicators 
++ Step 3: Completion of complementary feeding-related indicators 
++ Step 4: Development of general user guidelines for using the `riycf` package 
++ Step 5: Submit package for publication to CRAN 
++ Step 6: Development of Shiny app (concept note and flowchart) 
+
+
+## Reference Documents and Reading 
+
++ [\textcolor{blue}{the Indicators for assessing infant and young child feeding practices: definitions and measurement methods}](https://www.who.int/publications/i/item/9789240018389) 
++ [\textcolor{blue}{R Packages: Organize, Test, Document and Share your Code}](https://r-pkgs.org/index.html)
+
