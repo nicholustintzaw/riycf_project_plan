@@ -4,10 +4,10 @@ subtitle: "Independent Study Planning"
 author: Nicholus Tint Zaw
 fontsize: 12pt
 output:
+  word_document: default
   pdf_document: default
   html_document:
     df_print: paged
-  word_document: default
 header-includes: \usepackage{pdfpages}
 geometry: margin=0.5in
 fig_crop: no
@@ -62,8 +62,67 @@ Although published in 2008 with many humanitarian organizations and country heal
 + Step 6: Development of Shiny app (concept note and flowchart) 
 
 
+## Project Plan 
+| **No.** | **Activity Description** | **Responsible Person** | **Time-line** | **Deadline** | 
+|-|:----|:----|:--|:--| 
+| 1 | Project kick-off meeting | Professor Rebecca Wolfe \ Nicholus Tint Zaw | 28th-31th March |  TBC |  
+|   | **Step 1** |  |  |  | 
+| 2 | XLS form programming | Nicholus Tint Zaw | 28th-30th March | 1st April | 
+| 3 | Review XLS programming | Ernest Guevarra | 31th March - 1st April | 1st April | 
+|   | **Step 2** |  |  |  | 
+| 4 | Breastfeeding indicators development | Nicholus Tint Zaw | 4th-6th April | 6th April | 
+| 5 | Breastfeeding indicators \ code review | Ernest Guevarra | 7th - 8th April | 8th April | 
+| 6 | Project Progress Meeting | Professor Rebecca Wolfe \ Nicholus Tint Zaw | 11th-15th April | TBC | 
+|   | **Step 3** |  |  |  | 
+| 7 | Complementary indicators development | Nicholus Tint Zaw | 11th-13th April | 13th April| 
+| 8 | Complementary indicators \ code review | Ernest Guevarra | 14th - 15th April | 15th April | 
+|   | **Step 4** |  |  |  | 
+| 9 | Development of R Documentation File (Vignettes) | Nicholus Tint Zaw | 18th-22th April | 22th April | 
+| 10 | Project Progress Meeting | Professor Rebecca Wolfe \ Nicholus Tint Zaw | 25th-29th April | TBC | 
+| 11 | R Documentation File \ (Vignettes) review | Ernest Guevarra | 25th-29th Apri | 29th April | 
+|   | **Step 5** |  |  |  | 
+| 12 | Final Review on R-package \ (prepare for CRAN submission) | Nicholus Tint Zaw | 2nd-6th May | 6th May | 
+| 13 | Project Progress Meeting | Professor Rebecca Wolfe \ Nicholus Tint Zaw | 9th-13th May | TBC | 
+| 14 | Project Website Development | Nicholus Tint Zaw | 9th-11th May| 11th May | 
+| 15 | Project Website \ code review | Ernest Guevarra | 12th - 13th May | 13th May | 
+|   | **Step 6** |  |  |  | 
+| 16 | Shiny App Development (concept note) | Nicholus Tint Zaw | 16th-20th May| 20th May | 
+| 17 | Project Progress Meeting | Professor Rebecca Wolfe \ Nicholus Tint Zaw | 23th-27th May | TBC | 
+| 18 | Shiny App Development \ Concept note review | Ernest Guevarra | 23th-27th May | 27th May | 
+| 19 | R-package and Website Launching | All | 30th-31th May | 31th May |
+
+
+## Project Outputs 
+
+**Output-1: XLS programming form for standard IYCF indicators questionnaires** 
+
+Ready to deploy XLS programming form for any XLS form supported platform (for example, SurveyCTO, ONA, ODK, KoboToolbox, etc.). A brief user guide will be provided as part of the output, and the form will be also published on the `riycf-package` website. 
+
+**Output-2: `riycf-package`** 
+
+The `r-function` package calculates all the IYCF indicators provided in the WHO guideline. Each function will be performed to check the type of input parameters variables are consistent with the kind of variable to calculate the IYCF indicator variable. If not, the error message will be provided to notify the user to check the input parameter variables. If there were no issues with the input parameters, the indicator calculation process would continue, and the respective IYCF indicator will be returned as the final output of each function. 
+
+The additional variables check function will be available for the user who uses the XLS form provided by our package. This function will check whether the required variables' names are present in the provided data frame or not, and those variables have the correct variable type to calculate the IYCF indicators. 
+
+**Output-3: `r-package` Guideline Website** 
+
+This website will host information about XLS form and `riycf-package` and articles which explain the step-by-step demonstration on the usage of the XLS form and r-package. The shiny app link will be provided on that website. 
+
+**Output-4: `riycf Shiny App` Concept Note** 
+
+This concept note will help map out the feature and function of the `riycf shiny app,` which continues to work after this project. The main idea of this shiny app is to provide the 'riycf-package` to the user community who don't wish to use statistical software `R` for their regular monitoring and evaluation work (especially the INGOs country office teams). 
+
+
 ## Reference Documents and Reading 
 
 + [\textcolor{blue}{the Indicators for assessing infant and young child feeding practices: definitions and measurement methods}](https://www.who.int/publications/i/item/9789240018389) 
 + [\textcolor{blue}{R Packages: Organize, Test, Document and Share your Code}](https://r-pkgs.org/index.html)
+
+
+
+
+
+
+
+
 
